@@ -1,0 +1,11 @@
+{
+  "name": "news-mail",
+  "version": "1.0.0",
+  "description": "集合新闻结合双语翻译，发送到邮箱里面去",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
