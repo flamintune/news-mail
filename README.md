@@ -5,4 +5,4 @@
 # 实现思路
 
 - [x] 实现邮件发送功能 by nodemailer
-- [ ] 实现定制邮件 by heml
+- [ ] 实现定制邮件 by handlebars

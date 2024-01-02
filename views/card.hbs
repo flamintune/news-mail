@@ -1,0 +1,27 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hacker News Articles</title>
+    <style>
+      .card { margin: 20px; padding: 15px; border: 1px solid #ccc;
+      border-radius: 6px; box-shadow: 2px 2px 2px rgba(0,0,0,0.35); min-width:
+      250px; } .card-title { font-size: 1.2em; margin-bottom: 10px; } .card-info
+      { font-size: 0.9em; color: #555; } .card-link { margin-top: 15px; display:
+      block; font-size: 0.9em; text-decoration: none; color: #0077cc; } .hacker{
+      background-color: rgb(255, 102, 0); }
+    </style>
+  </head>
+  <body>
+    <div style="padding: 20px;border:1px solid rgba(0,0,0,0.35)">
+      <h1 style="text-align: center;color:rgb(255, 102, 0)">Hacker News</h1>
+      {{#each articles}}
+        <div class="card hacker">
+          <div class="card-title">{{this.title}}</div>
+          <div class="card-title">{{this.chnMean}}</div>
+          <div class="card-info">by {{this.by}}</div>
+          <a href="{{this.url}}" class="card-link" target="_blank">Read more</a>
+        </div>
+      {{/each}}
+    </div>
+  </body>
+</html>
