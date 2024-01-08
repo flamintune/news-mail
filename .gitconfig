@@ -1,0 +1,11 @@
+[user]
+    name = flamintune
+    email = 1853995253@qq.com
+[alias]
+    co = checkout
+    ci = commit
+    st = status
+[http]
+    proxy = http://127.0.0.1:7890
+[https]
+    proxy = https://127.0.0.1:7890

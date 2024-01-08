@@ -5,4 +5,9 @@
 # 实现思路
 
 - [x] 实现邮件发送功能 by nodemailer
-- [ ] 实现定制邮件 by handlebars
+- [x] 实现定制邮件 by handlebars
+
+# todo
+
+- [ ] 如何更快地添加新闻订阅
+- [ ]
